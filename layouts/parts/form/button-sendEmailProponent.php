@@ -15,7 +15,7 @@ $route = App::i()->createUrl('sendEmailProponent', 'sendMailProponent', ['id'=>$
 
     <form class="form-report-evaluation-technical-options"
         action="<?=$route?>" method="GET">
-        <p>Enviar email para proponentes que estão com a inscrição em rascunho.</p>
+        <p>Enviar email para proponentes que estão com a inscrição em rascunho. </p>
         <button class="btn btn-primary" type="submit">Enviar</button>
     </form>
 </edit-box>

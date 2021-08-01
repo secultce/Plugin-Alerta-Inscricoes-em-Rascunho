@@ -97,7 +97,7 @@ class SendEmailProponent extends Controller
                 Estamos passando para avisar que você não finalizou a sua inscrição no EDITAL AGENTES DE LEITURA DO CEARÁ – 2021. <br>
                 Tem interesse em finalizar seu cadastro? LEMBRE-SE: As inscrições vão até o dia 02/08/2021. Acesse o link para inscrição no MAPA CULTURAL: https://mapacultural.secult.ce.gov.br/oportunidade/$proponent->id_edital/ <br><br>
 
-                Atenciosamente, <br>
+                Atenciosamente, <br> 
                 Coordenadoria do Livro, Leitura, Literatura e Biblioteca (CLLB)
             ");
             $mail->send();
