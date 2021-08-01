@@ -1,5 +1,5 @@
 <?php
-namespace SendEmailProponentsWithDraftInscription;
+namespace SendEmailUser;
 
 use MapasCulturais\App;
 use MapasCulturais\Entities;
@@ -31,7 +31,7 @@ class Plugin extends \MapasCulturais\Plugin {
     public function register() 
     {
         $app = App::i();
-        $app->registerController('sendEmailProponent', 'SendEmailProponentsWithDraftInscription\Controllers\SendEmailProponent');
+        $app->registerController('sendEmailProponent', 'SendEmailUser\Controllers\SendEmailProponent');
     }
 
 }

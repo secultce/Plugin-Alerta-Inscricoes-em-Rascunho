@@ -1,6 +1,6 @@
 <?php
 
-namespace SendEmailProponentsWithDraftInscription\Controllers;
+namespace SendEmailUser\Controllers;
 
 use MapasCulturais\App;
 use MapasCulturais\Controller;
