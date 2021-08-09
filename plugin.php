@@ -1,4 +1,5 @@
 <?php
+
 namespace SendEmailUser;
 
 use MapasCulturais\App;
@@ -7,15 +8,15 @@ use MapasCulturais\i;
 
 require_once 'vendor/autoload.php';
 
-class Plugin extends \MapasCulturais\Plugin {
+class Plugin extends \MapasCulturais\Plugin
+{
 
-    public function __construct(array $config = []) 
+    public function __construct(array $config = [])
     {
         parent::__construct($config);
-        
     }
 
-    public function _init() 
+    public function _init()
     {
         $app = App::i();
 
@@ -29,12 +30,9 @@ class Plugin extends \MapasCulturais\Plugin {
         });
     }
 
-    public function register() 
+    public function register()
     {
         $app = App::i();
-        $app->registerController('sendEmailProponent', 'SendEmailUser\Controllers\SendEmailProponent');
+        $app->registerController('sendEmailProponent', 'MapasCulturais\Controllers\SendEmailProponent');
     }
-
 }
-
-?>
